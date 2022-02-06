@@ -1,0 +1,24 @@
+[
+    {
+        "type": "addExistingSongToExistingPlaylist",
+        "data": {
+            "songId": "15",
+            "playlistId": "1"
+        }
+    },
+    {
+        "type": "addNewPlaylistToExistingUser",
+        "data": {
+            "userId": "3",
+            "songIds": [
+                "1, 6, 8"
+            ]
+        }
+    },
+    {
+        "type": "removeExistingPlaylist",
+        "data": {
+            "playlistId": "3"
+        }
+    }
+]
